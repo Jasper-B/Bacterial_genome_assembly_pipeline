@@ -1,0 +1,20 @@
+name: bacterial_genome_assembly_pipeline
+channels:
+- conda-forge
+- bioconda
+- r
+- defaults
+dependencies:
+- abricate
+- entrez-direct
+- fastqc
+- mlst
+- parallel
+- perl
+- pigz
+- prokka
+- python=3
+- quast
+- ragtag
+- spades
+- sratools
